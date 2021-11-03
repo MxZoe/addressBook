@@ -13,23 +13,26 @@
         <h1>Address Book</h1>
       </div>
       <!--start of form-->
-      <div id="formOne">
+      <form id="formOne">
         <div class="form-group">
           <label for="color">Assign contact a color:</label>
           <input id="color" class="form-control" type="color">
         </div>
+        <div class="form-group">
+          <label for="firstName">First name: </label>
+          <input id="firstName" class="form-control" type="text">
         </div>
         <div class="form-group">
-          <label for="name">Name: </label>
-          <input id="name" class="form-control" type="text">
+          <label for="lastName">Last name: </label>
+          <input id="lastName" class="form-control" type="text">
         </div>
         <div class="form-group">
-          <label for="address1">Address line one: </label>
-          <input id="address1" class="form-control" type="text">
+          <label for="addressOne">Address line one: </label>
+          <input id="addressOne" class="form-control" type="text">
         </div>
         <div class="form-group">
-          <label for="address2">Address line two: </label>
-          <input id="address2" class="form-control" type="text">
+          <label for="addressTwo">Address line two: </label>
+          <input id="addressTwo" class="form-control" type="text">
         </div>
         <div class="form-group">
           <label for="city">City: </label>
@@ -100,12 +103,19 @@
           </textarea>
         </div>
         <!--end of states dropdown-->
+        <button type="submit" class="btn btn-primary">Submit</button>
       </div>
+
+      </form>
       <!--end of form-->
+    <div class="row">
+      <p id="display">
+
+      </p>
     </div>
     <!--end of container div--> 
 
-
+    
 
  </body>
 </html>
