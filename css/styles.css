@@ -1,0 +1,9 @@
+.col-sm-3{
+  text-align: center;
+  height: 50px;
+  border: 1px solid black;
+}
+
+.btn{
+  margin-bottom: 2%;
+}
